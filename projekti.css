@@ -1,0 +1,128 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#aabbdd
+}
+#container{
+    border: 1px solid black;
+width: 100%;
+overflow: hidden;
+}
+.header1{
+width: 98%;
+height: 50px;
+border: 1px solid black;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+left: 1%;
+right: 1%;
+
+position: relative;
+}
+.menu-majtas{
+    width: 30%;
+    height: inherit;
+    border:1px solid black;
+    
+    
+}
+
+.menu-djathtas{
+    width: 30%;
+    height: auto;
+    border:1px solid black;
+}
+
+.header2{
+    width: 98%;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    left: 1%;
+    right: 1%;
+    position: relative;
+    align-items: center;
+}
+
+#logo{
+    width: 50px;
+    height:inherit;
+    border: 1px solid black;
+}
+
+#search{
+    width: 300px;
+    height: 20px;
+    border: 1px solid black;
+}
+#supermarket{
+    border: 1px solid black;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    padding-top: 12px;
+    margin-right: 5px;
+}
+.middlecontainer{
+    width: 98%;
+    height: 55vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    left: 1%;
+    right: 1%;
+}
+#kategorite{
+    width: 30%;
+    height: auto;
+    border: 1px solid black;
+}
+#slidet{
+    width: 80%;
+    border: 1px solid black;
+    
+
+}
+.artikujt{
+    width: 98%;
+    height: 23vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 1%;
+    right: 1%;
+    
+}
+.artikulli{
+    width: 20%;
+    height: 98%;
+    border: 1px solid black;
+}
+.footer{
+    width: 98%;
+    height: 5.5vh;
+    border:1px solid black;
+    position: relative;
+    left: 1%;
+    right: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.sherbimi{
+    width: 20%;
+    height: 30px;
+    border: 1px solid black;
+}
