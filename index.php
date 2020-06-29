@@ -9,8 +9,25 @@
     <body>
         <div id="container">
             <div class="header1">
-                <div class="menu-majtas">menu majtas</div>
-                <div class="menu-djathtas">menu djathtas</div>
+                <div class="left-side">
+                    <img class="icon" src="menuicon.png">
+                    <ul class="lista-majte">
+                        <li><a href="#">href</a></li>
+                        <li>dopsem</li>
+                        <li>opsem</li>
+                        
+                    </ul>
+                </div>
+                <div class="right-side">
+                    
+                    <ul class="lista-djatht">
+                        <li><a href="#">href</a></li>
+                        <li>dopsem</li>
+                        <li>opsem</li>
+                        
+                    </ul>
+                </div>
+                    
             </div>
             <div class="header2">
                 <div id="logo">logo</div>
