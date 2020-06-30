@@ -10,20 +10,20 @@
         <div id="container">
             <div class="header1">
                 <div class="left-side">
-                    <img class="icon" src="menuicon.png">
+                    <a href="#"><img class="icon" src="menuicon.png"></a>
                     <ul class="lista-majte">
-                        <li><a href="#">href</a></li>
-                        <li>dopsem</li>
-                        <li>opsem</li>
+                        <li><a href="#"><b>Sherbimi klientit</b></a></li>
+                        <li><a href="#"><b>Ofertat</b></a></li>
+                        <li><a href="#"><b>Te rejat</b></a></li>
                         
                     </ul>
                 </div>
                 <div class="right-side">
                     
                     <ul class="lista-djatht">
-                        <li><a href="#">href</a></li>
-                        <li>dopsem</li>
-                        <li>opsem</li>
+                        <li><a href="#"><b>Ide dhuratash</b></a></li>
+                        <li><a href="#"><b>Te preferuarat e mia</b></a></li>
+                        <li id="li"><a href="#"><b>Hyr</b></a></li>
                         
                     </ul>
                 </div>
