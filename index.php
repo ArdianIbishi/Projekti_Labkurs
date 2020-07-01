@@ -4,15 +4,21 @@
         <title>Projekti</title>
         <meta charset="UTF-8">
         <link rel="Stylesheet" href="projekti.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
     </head>
 
     <body>
         <div id="container">
             <div class="header1">
                 <div class="left-side">
-                    <a href="#"><img class="icon" src="menuicon.png"></a>
+                    <ul class="icona">
+                    <li><a href="#"><img class="icon" src="img/menuicon.png"></a>
+                    
+                    </ul>
                     <ul class="lista-majte">
-                        <li><a href="#"><b>Sherbimi klientit</b></a></li>
+                        <li><a href="#"><b>Sherbimi klientit</b></a>                          
+                            </li>
                         <li><a href="#"><b>Ofertat</b></a></li>
                         <li><a href="#"><b>Te rejat</b></a></li>
                         
@@ -22,8 +28,8 @@
                     
                     <ul class="lista-djatht">
                         <li><a href="#"><b>Ide dhuratash</b></a></li>
-                        <li><a href="#"><b>Te preferuarat e mia</b></a></li>
-                        <li id="li"><a href="#"><b>Hyr</b></a></li>
+                        <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i><b>Te preferuarat e mia</b></a></li>
+                        <li id="li"><i class="fa fa-user-circle" aria-hidden="true"></i><b>Hyr</b></a></li>
                         
                     </ul>
                 </div>
@@ -36,7 +42,19 @@
             </div>
             <div class="middlecontainer">
                 <div id="kategorite">Kategorite</div>
-                <div id="slidet">Slidet</div>
+                <div class="slidet">
+                    <div>
+                    <figure>
+                        <a href="#"><img src="img/kozmetika.jpg"></a>
+                        <a href="#"><img src="img/butiku.jpg"></a>
+                        <a href="#"><img src="img/marketi.jpg"></a>
+                        <a href="#"><img src="img/prenalact-synergy-multivitamin.jpg"></a>
+                        <a href="#"><img src="img/aaallogo beni impex (1).png"></a>
+                    </figure>
+                    </div>
+                    
+
+                </div>
             </div>
             <div class="artikujt">
                 <div class="artikulli" id="first">artikulli1</div>

@@ -59,6 +59,14 @@ position: relative;
     text-align: center;
     color: black;
 }
+
+.lista-majte ul{
+    display: block;
+}
+.lista-majte ul li a:hover{
+    background-color: blue;
+}
+
 .icon{
     width: 50px;
     height: 50px;
@@ -90,6 +98,9 @@ position: relative;
     margin-right: 80px;
     padding-right: 10px;
     padding-left: 10px;
+}
+.fa{
+    margin-right: 8px;
 }
 .icon{
     padding-top: 0px 5px 0px 5px;
@@ -151,12 +162,68 @@ position: relative;
     height: auto;
     border: 1px solid black;
 }
-#slidet{
+.slidet{
     width: 80%;
     border: 1px solid black;
-    
+    height: 411px;
+    position: relative;
+overflow: hidden;
 
 }
+.slidet figure{
+    position: relative;
+    width: 500%;
+    animation: slide 10s infinite;
+}
+
+.slidet img{
+    width: 20%;
+    height: 411px;
+    float: left;
+}
+@keyframes slide{
+    0%{
+        left: 0;
+    }
+    10%{
+        left: 0;
+    }
+    20%{
+        left: -100%;
+    }
+    30%
+    {
+        left: -100%;
+    }
+    40%
+    {
+        left: -200%;
+    }
+    50%
+    {
+        left: -200%;
+    }
+    60%
+    {
+        left: -300%;
+    }
+    70%
+    {
+        left: -300%;
+    }
+    80%
+    {
+        left: -400%;
+    }
+    90%
+    {
+        left:-400%;
+    }
+    100%{
+        left: 0;
+    }
+}
+
 .artikujt{
     width: 98%;
     height: 23vh;
