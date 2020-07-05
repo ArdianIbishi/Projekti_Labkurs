@@ -42,12 +42,36 @@
                         <input type="text" placeholder="Kerko produktin" name="search">
                         <button type="submit"><i class="fa fa-search"></i></button>
                       </form>
-                    
+           
+         
                 </div>
-                <div id="supermarket">SUPERMARKET</div>
+                <div id="supermarket"><h2>SUPERMARKET</h2></div>
             </div>
             <div class="middlecontainer">
-                <div id="kategorite">Kategorite</div>
+                <div id="kategorite"><h3 class="h3">KATEGORITE<i class="fa fa-chevron-down"></i><h3>
+                    <ul><li class="li-first"><a href="#"><i class="fa fa-laptop"></i>Kompjuter&Kancelari</a></li>
+                        <li class="li-second"><a href="#"><i class="fa fa-home" aria-hidden="true"></i>
+                            Shtepia</a></li>
+                            <li class="li-first"><a href="#"><i class="fa fa-plug" aria-hidden="true"></i>
+                                Elektronike</a></li>
+                                <li class="li-second"><a href="#"><i class="fa fa-tablet" aria-hidden="true"></i>
+                                    Smartphone&Tablet</a></li>
+                                    <li class="li-first"><a href="#"><i class="fa fa-female"></i>Femra</a></li>
+                                    <li class="li-second"><a href="#"><i class="fa fa-male" aria-hidden="true"></i>
+                                        Meshkuj</a></li>
+                                        <li class="li-first"><a href="#"><i class="fa fa-gamepad" aria-hidden="true"></i>
+                                            Femije&Lodra</a></li>
+                                            <li class="li-second"><a href="#"><i class="fa fa-leaf" aria-hidden="true"></i>
+                                                Kujdesi Personal</a></li>
+                                                <li class="li-first"><a href="#"><i class="fa fa-car" aria-hidden="true"></i>
+                                                    Makina Aksesore</a></li>
+                                                    <li class="li-second"><a href="#"><i class="fa fa-book" aria-hidden="true"></i>
+                                                        Libra</a></li>
+
+
+                    </ul>
+
+            </div>
                 <div class="slidet">
                     <div>
                     <figure>
