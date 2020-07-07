@@ -13,7 +13,7 @@
             <div class="header1">
                 <div class="left-side">
                     <ul class="icona">
-                    <li><a href="#"><img class="icon" src="img/menuicon.png"></a>
+                    <li><a href="#"><img class="icon" src="menuicon.png"></a>
                     
                     </ul>
                     <ul class="lista-majte">
@@ -36,8 +36,14 @@
                     
             </div>
             <div class="header2">
-                <div id="logo">logo</div>
-                <div id="search">search</div>
+                <img src="aaallogo beni impex (1).png">
+                <div id="search">
+                    <form action="action">
+                        <input type="text" placeholder="Kerko produktin" name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                      </form>
+                    
+                </div>
                 <div id="supermarket">SUPERMARKET</div>
             </div>
             <div class="middlecontainer">
@@ -45,11 +51,11 @@
                 <div class="slidet">
                     <div>
                     <figure>
-                        <a href="#"><img src="img/kozmetika.jpg"></a>
-                        <a href="#"><img src="img/butiku.jpg"></a>
-                        <a href="#"><img src="img/marketi.jpg"></a>
-                        <a href="#"><img src="img/prenalact-synergy-multivitamin.jpg"></a>
-                        <a href="#"><img src="img/aaallogo beni impex (1).png"></a>
+                        <a href="#"><img src="kozmetika.jpg"></a>
+                        <a href="#"><img src="butiku.jpg"></a>
+                        <a href="#"><img src="marketi.jpg"></a>
+                        <a href="#"><img src="prenalact-synergy-multivitamin.jpg"></a>
+                        <a href="#"><img src="aaallogo beni impex (1).png"></a>
                     </figure>
                     </div>
                     
