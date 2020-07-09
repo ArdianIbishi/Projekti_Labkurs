@@ -1,50 +1,31 @@
-
-
-Skip to content
-Using UBT - Higher Education Institution Mail with screen readers
-ardianibishi 
-Enable desktop notifications for UBT - Higher Education Institution Mail.
-   OK  No thanks
-Meet
-Start a meeting
-Join a meeting
-Chat
-
-Conversations
-Using 0.25 GB
-Manage
-Program Policies
-Powered by Google
-Last account activity: 17 minutes ago
-Details
-
 *
 {
     margin: 0;
     padding: 0;
 }
 body{
-    background-color:#aabbdd
+    background-color:whitesmoke
 }
 #container{
-    border: 1px solid black;
+    
 width: 100%;
 overflow: hidden;
 }
 .header1{
 width: 98%;
 height: 50px;
-border: 1px solid black;
+
 display: flex;
 flex-direction: row;
 justify-content: space-between;
 left: 1%;
 right: 1%;
 align-items: center;
-
+border-bottom: 1px solid black;
 position: relative;
 
 }
+
 .header1 ul{
     list-style: none;
     display: flex;
@@ -89,8 +70,8 @@ position: relative;
 
 .icon{
     width: 50px;
-    height: 50px;
-    margin-left: 5px;
+    height: 49px;
+    
 }
 
 .right-side{
@@ -136,7 +117,7 @@ position: relative;
 .header2{
     width: 98%;
     height: 50px;
-    border: 1px solid black;
+    
     display: flex;
     flex-direction: row;
     display: flex;
@@ -146,16 +127,17 @@ position: relative;
     right: 1%;
     position: relative;
     align-items: center;
+    margin-top: 1px;
 }
 
 .header2 img{
     width: 300px;
     height:inherit;
-    border: 1px solid black;
+    
 }
 
 #search{
-    width: 518px;
+    width: 503px;
     height: 35px;
     border: 1px solid black;
     
@@ -176,7 +158,6 @@ position: relative;
     
     padding: 6px 10px;
 
-    margin-right: 16px;
     background: #aabbdd;
     font-size: 17px;
     border: none;
@@ -195,7 +176,7 @@ position: relative;
 .middlecontainer{
     width: 98%;
     height: 55vh;
-    border: 1px solid black;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -206,7 +187,7 @@ position: relative;
 #kategorite{
     width: 30%;
     height: auto;
-    border: 1px solid black;
+    
     
     padding-top: 10px;
 }
@@ -219,13 +200,14 @@ position: relative;
     color: white;
 }
 .h3{
-    background-color: whitesmoke;
+    background-color: white;
     padding-top: 7px;
     padding-bottom: 7px;
     text-align: center;
 }
 #kategorite ul{
     list-style: none;
+    
     
     
     
@@ -237,16 +219,16 @@ position: relative;
     
 }
 .li-first{
-    background:#aabbdd;
+    background:whitesmoke;
     
 }
 .li-second{
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 .slidet{
     width: 80%;
-    border: 1px solid black;
+    
     height: 411px;
     position: relative;
 overflow: hidden;
@@ -255,7 +237,7 @@ overflow: hidden;
 .slidet figure{
     position: relative;
     width: 500%;
-    animation: slide 20s infinite;
+    animation: slide 15s infinite;
 }
 
 .slidet img{
@@ -305,26 +287,88 @@ overflow: hidden;
         left: 0;
     }
 }
-
+p{
+    font-size: 15pt;
+    margin: 8px 0px 8px 12px;
+}
 .artikujt{
     width: 98%;
     height: 23vh;
-    border: 1px solid black;
-    display: flex;
-    flex-direction: row;
+    
+    background-color: whitesmoke;
+    
     position: relative;
     left: 1%;
     right: 1%;
+    overflow: hidden;
+    margin-top: 2px;
+}
+
+.artikujt .artikulli{
+   position: relative;
+    width: 3400px;
+    animation:slide2 30s infinite;
     
 }
-.artikulli{
-    width: 20%;
-    height: 98%;
-    border: 1px solid black;
+.artikulli1{
+    display: flex;
+    flex-direction: column;
 }
+.artikulli img{
+    width: 200px;
+    height: 23vh;
+    margin-right: 13px;
+    float: left;
+}
+
+
+
+@keyframes slide2{
+    0%{
+        left: 0;
+    }
+    10%{
+        left: 0;
+    }
+    20%{
+        left: -211px;
+    }
+    30%
+    {
+        left: -422px;
+    }
+    40%
+    {
+        left: -633px;
+    }
+    50%
+    {
+        left: -847px;
+    }
+    60%
+    {
+        left: -1065px;
+    }
+    70%
+    {
+        left: -1275px;
+    }
+    80%
+    {
+        left: -1488px;
+    }
+    90%
+    {
+        left:-1705px;
+    }
+    100%{
+        left: 0;
+    }
+}
+
 .footer{
     width: 98%;
-    height: 5.5vh;
+    height: 60px;
     border:1px solid black;
     position: relative;
     left: 1%;
@@ -333,11 +377,16 @@ overflow: hidden;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-top: 30px;
 }
 .sherbimi{
     width: 20%;
-    height: 30px;
+    height: 40px;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    padding-top: 5px;
+    
 }
-css.txt
-Displaying css.txt.
+
