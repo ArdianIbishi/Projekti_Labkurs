@@ -231,6 +231,7 @@ position: relative;
     text-decoration: none;
     color: black;
 }
+
 #kategorite li a:hover{
     background-color: blue;
     color: white;
@@ -253,7 +254,10 @@ position: relative;
     padding-bottom: 7px;
     padding-left: 80px;
     
+    width: 500px;
+    
 }
+
 .li-first{
     background:whitesmoke;
     
@@ -262,12 +266,54 @@ position: relative;
     background-color: white;
 }
 
+.drop1 h4{
+    padding-right: 100px;
+}
+
+.drop2 {
+    
+    color: black;
+    
+    text-decoration: none;
+    border: none;
+  }
+  
+  .drop1 {
+    position: relative;
+    display: flex;
+  }
+  
+  .drop3 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .drop3 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .drop1-content a:hover {background-color: #ddd;}
+  
+  .drop1:hover .drop3 {display: flex;}
+  
+  .drop1:hover .drop2 {background-color: blue}
+
+
+
 .slidet{
-    width: 80%;
+    width: 100%;
     
     height: 411px;
     position: relative;
 overflow: hidden;
+margin-left: 5px;
 
 }
 .slidet figure{
