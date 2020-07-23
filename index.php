@@ -3,210 +3,34 @@
     <head>
         <title>Projekti</title>
         <meta charset="UTF-8">
-        <link rel="Stylesheet" href="projekti1.css">
+        <link rel="Stylesheet" href="css/projekti2.css">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
             
     </head>
 
     <body>
         <div id="container">
-            <div class="header1">
-                <div class="left-side">
-                    <ul class="icona">
-                        <div class="dropdown">
-                            <button class="dropbtn"><img class="icon" src="img/menuicon.png"></button>
-                            <div class="dropdown-content">
-                              <a href="projekti.html"><b>Ballina<b></a>
+           <?php
+           
+           include 'include/header.php';
 
-                              <a href="#"><b>About us<b></a>
-                              <a href="#"><b>Mundesi Punsimi<b></a>
-                              <a href="#"><b>Lokacioni<b></a>
-                            </div>
-                          </div>
-                          
-                    
-                    
-                    </ul>
-                    <ul class="lista-majte">
-                        <li><div class="dropdown">
-                            <button class="dropbtn"><b>Sherbimi klientit<b></button>
-                            <div class="dropdown-content">
-                              <a href="#"><b>Na kontaktoni<b></a>
-                              <a href="#"><b>Transporti<b></a>
-                              <a href="#"><b>Kthimi i produktit<b></a>
-                            </div>
-                          
-                        <li>
-                            <li><div class="dropdown">
-                                <button class="dropbtn"><b>Ofertat<b></button>
-                                <div class="dropdown-content">
-                                  <a href="#"><b>Oferta javore<b></a>
-                                  <a href="#"><b>Oferta mujore<b></a>
-                                  
-                                </div>
-                            
-                        <li><a href="#"><b>Te rejat</b></a></li>
-                        
-                    </ul>
-                </div>
-                <div class="right-side">
-                    
-                    <ul class="lista-djatht">
-                        <li><a href="#"><b>Ide dhuratash</b></a>
-                        <li></li></li>
-                        <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i><b>Te preferuarat e mia</b></a></li>
-                        <li id="li"><i class="fa fa-user-circle" aria-hidden="true"></i><b>Hyr</b></a></li>
-                        
-                    </ul>
-                </div>
-                    
-            </div>
+           ?>
             
             <div class="header2">
-                <img src="img/aaallogo beni impex (1).png">
-                <div id="search">
-                    <form action="action">
-                        <input type="text" placeholder="Kerko produktin" name="search">
-                        <button type="submit"><i class="fa fa-search"></i></button>
-                      </form>
-           
-         
-                </div>
-                <div id="supermarket"><h2>SUPERMARKET</h2></div>
+            
+            <?php
+            
+            include 'include/header2.php';
+            ?>
             </div>
             <div class="middlecontainer">
 
                  <div id="kategorite"><h3 class="h3">KATEGORITE<i class="fa fa-chevron-down"></i><h3>
-                    <ul><li class="li-first">
-
-                        <div class="drop1">
-                            <h4 class="drop1"><b><a href="#"><i class="fa fa-laptop"></i>Kompjuter&Kancelari</a><b></h4>
-                            <div class="drop3">
-                              <a href="#"><b>Na kontaktoni<b></a>
-                              <a href="#"><b>Transporti<b></a>
-                              <a href="#"><b>Kthimi i produktit<b></a>
-                            </div>
-
-
-                        </li>
-                        <li class="li-second">
-                            <div class="drop1">
-                                <h4 class="drop1"><b>   <a href="#"><i class="fa fa-home" aria-hidden="true"></i>
-                                    Shtepia </a><b></h4>
-                                <div class="drop3">
-                                  <a href="#"><b>Na kontaktoni<b></a>
-                                  <a href="#"><b>Transporti<b></a>
-                                  <a href="#"><b>Kthimi i produktit<b></a>
-                                </div>
-                            
-                         </li>
-                            <li class="li-first">
-                                
-                                <div class="drop1">
-                                    <h4><b><a href="#"><i class="fa fa-plug" aria-hidden="true"></i>
-                                        Elektronike</a><b></h4>
-                                    <div class="drop3">
-                                      <a href="#"><b>Na kontaktoni<b></a>
-                                      <a href="#"><b>Transporti<b></a>
-                                      <a href="#"><b>Kthimi i produktit<b></a>
-                                    </div>
-                                
-                                </li>
-                                <li class="li-second">
-                                    
-                                    
-                                <div class="drop1">
-                                    <h4><b><a href="#"><i class="fa fa-tablet" aria-hidden="true"></i>
-                                        Smartphone&Tablet</a><b></h4>
-                                    <div class="drop3">
-                                      <a href="#"><b>Na kontaktoni<b></a>
-                                      <a href="#"><b>Transporti<b></a>
-                                      <a href="#"><b>Kthimi i produktit<b></a>
-                                    </div>
-                                
-                                    
-                                    
-                                    </li>
-                                    <li class="li-first">
-                                        
-                                        
-                                <div class="drop1">
-                                    <h4>
-                                      <b>  <a href="#"><i class="fa fa-female"></i>Femra</a><b></h4>
-                                    <div class="drop3">
-                                      <a href="#"><b>Na kontaktoni<b></a>
-                                      <a href="#"><b>Transporti<b></a>
-                                      <a href="#"><b>Kthimi i produktit<b></a>
-                                    </div>
-                                
-                                    </li>
-                                    <li class="li-second">
-                                        
-                                        <div class="drop1">
-                                            <h4 class="drop1"><b><a href="#"><i class="fa fa-male" aria-hidden="true"></i>
-                                                Meshkuj</a><b></h4>
-                                            <div class="drop3">
-                                              <a href="#"><b>Na kontaktoni<b></a>
-                                              <a href="#"><b>Transporti<b></a>
-                                              <a href="#"><b>Kthimi i produktit<b></a>
-                                            </div>
-                                        </li>
-                                        <li class="li-first">
-                                            
-                                            <div class="drop1">
-                                                <h4 class="drop1"><b><a href="#"><i class="fa fa-gamepad" aria-hidden="true"></i>
-                                                    Femije&Lodra</a><b></h4>
-                                                <div class="drop3">
-                                                  <a href="#"><b>Na kontaktoni<b></a>
-                                                  <a href="#"><b>Transporti<b></a>
-                                                  <a href="#"><b>Kthimi i produktit<b></a>
-                                                </div>
-                                            
-                                            </li>
-                                            <li class="li-second">
-                                                
-                                                <div class="drop1">
-                                                    <h4 class="drop1"><b><a href="#"><i class="fa fa-leaf" aria-hidden="true"></i>
-                                                        Kujdesi Personal</a><b></h4>
-                                                    <div class="drop3">
-                                                      <a href="#"><b>Na kontaktoni<b></a>
-                                                      <a href="#"><b>Transporti<b></a>
-                                                      <a href="#"><b>Kthimi i produktit<b></a>
-                                                    </div>
-                                                
-                                                </li>
-                                                <li class="li-first">
-                                                    
-                                                    <div class="drop1">
-                                                        <h4 class="drop1"><b><a href="#"><i class="fa fa-car" aria-hidden="true"></i>
-                                                            Makina Aksesore</a></i><b></h4>
-                                                        <div class="drop3">
-                                                          <a href="#"><b>Na kontaktoni<b></a>
-                                                          <a href="#"><b>Transporti<b></a>
-                                                          <a href="#"><b>Kthimi i produktit<b></a>
-                                                        </div>
-                                                    
-                                                    
-                                                    </li>
-                                                    <li class="li-second">
-                                                        
-                                                        
-                                                    <div class="drop1">
-                                                        <h4 class="drop1"><b><a href="#"><i class="fa fa-book" aria-hidden="true"></i>
-                                                            Libra</a></i><b></h4>
-                                                        <div class="drop3">
-                                                          <a href="#"><b>Na kontaktoni<b></a>
-                                                          <a href="#"><b>Transporti<b></a>
-                                                          <a href="#"><b>Kthimi i produktit<b></a>
-                                                        </div>
-                                                    
-                                                        
-                                                        </li>
-
-
-                    </ul>
-
+                    
+                 <?php
+                 include 'include/kategoria.php';
+                 ?>
             </div>
                 <div class="slidet">
                     <div>
@@ -222,60 +46,101 @@
 
                 </div>
             </div>
-            <p>Produkte qe po bihen se fundi te Beni Impex</p>
+            <p>Produkte qe po blihen se fundi te Beni Impex</p>
             <div class="artikujt">
+
                 <div class="artikulli">
                     <a href="#"><img src="img/aaallogo beni impex (1).png"></a>
+                    <div>cmimi</div>
+                    <div>cmimi</div>
                 </div>
+
                 <div class="artikulli">
-                
-                <a href="#"><img src="img/iphone.jpg"></a>
-                
+                    <a href="#"><img src="img/iphone.jpg"></a>
+                    <div>cmimi</div>
+                    <div>cmimi</div>
                 </div>
+
                 <div class="artikulli">
                     <a href="#"><img src="img/shtrydhse frutash.jpg"></a>
-                    
-                    </div>
-                    <div class="artikulli">
-                    <a href="#"><img src="img/televizor.jpg"></a>
-                    </div>
-                    <div class="artikulli">
-                    <a href="#"><img src="img/krahen.jpg"></a>
-                    </div>
-                    <div class="artikulli">
-                    <a href="#"><img src="img/krem.jpg"></a>
-                    </div>
-                    <div class="artikulli">
-                    <a href="#"><img src="img/miniblinder.jpg"></a>
-                    </div>
-                    <div class="artikulli">
-                        <a href="#"><img src="img/tplink.jpg"></a>
-                        </div>
-                        <div class="artikulli">
-                            <a href="#"><img src="img/tenxhere.jpg"></a>
-                            </div>
-                            <div class="artikulli">
-                                <a href="#"><img src="img/kamera.jpg"></a>
-                                </div>
-                                <div class="artikulli">
-                                    <a href="#"><img src="img/beba.jpg"></a>
-                                    </div>
-                                    <div class="artikulli">
-                                        <a href="#"><img src="img/usb.jpg"></a>
-                                        </div>
-                                        <div class="artikulli">
-                                            <a href="#"><img src="img/kondicioner.jpg"></a>
-                                            </div>
-                                            <div class="artikulli">
-                                                <a href="#"><img src="img/laptop.jpg"></a>
-                                                </div>
-                                                <div class="artikulli">
-                                                    <a href="#"><img src="img/tenxhere.jpg"></a>
-                                                    </div>
-                                                    
+                    <div>cmimi</div>
+                    <div>cmimi</div> 
+                </div>
 
+                <div class="artikulli">
+                    <a href="#"><img src="img/televizor.jpg"></a>
+                    <div>cmimi</div>
+                    <div>cmimi</div>
+                </div>
+
+                <div class="artikulli">
+                    <a href="#"><img src="img/krahen.jpg"></a>
+                    <div>cmimi</div>
+                    <div>cmimi</div>
+                </div>
+
+                <div class="artikulli">
+                    <a href="#"><img src="img/krem.jpg"></a>
+                    <div>cmimi</div>
+                    <div>cmimi</div>
+                </div>
+
+                <div class="artikulli">
+                    <a href="#"><img src="img/miniblinder.jpg"></a>
+                    <div>cmimi</div>
+                    <div>cmimi</div>
+                </div>
+
+                <div class="artikulli">
+                    <a href="#"><img src="img/tplink.jpg"></a>
+                    <div>cmimi</div>
+                    <div>cmimi</div>
+                </div>
+
+                <div class="artikulli">
+                    <a href="#"><img src="img/tenxhere.jpg"></a>
+                    <div>cmimi</div>
+                    <div>cmimi</div>
+                </div>
+
+                <div class="artikulli">
+                    <a href="#"><img src="img/kamera.jpg"></a>
+                    <div>cmimi</div>
+                    <div>cmimi</div>
+                </div>
                 
+                <div class="artikulli">
+                    <a href="#"><img src="img/beba.jpg"></a>
+                    <div>cmimi</div>
+                    <div>cmimi</div>
+                </div>
+
+                <div class="artikulli">
+                    <a href="#"><img src="img/usb.jpg"></a>
+                    <div>cmimi</div>
+                    <div>cmimi</div>
+                </div>
+                                        
+                <div class="artikulli">
+                    <a href="#"><img src="img/kondicioner.jpg"></a>
+                    <div>cmimi</div>
+                    <div>cmimi</div>
+                </div>
+                
+                <div class="artikulli">
+                    <a href="#"><img src="img/laptop.jpg"></a>
+                    <div>cmimi</div>
+                    <div>cmimi</div>
+                </div>
+                                               
+                <div class="artikulli">
+                    <a href="#"><img src="img/tenxhere.jpg"></a>
+                    <div>cmimi</div>
+                    <div>cmimi</div>
+                </div>
             </div>
+
+
             <div class="footer">
                 <div class="sherbimi" id="qmimi">
                     <a href="#"><i class="fa fa-eur" aria-hidden="true"></i><br>
