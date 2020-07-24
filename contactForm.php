@@ -53,7 +53,7 @@
 
 
                       <label for="qyteti">Qyteti</label>
-                         <select id="qyteti" name="qyteti">
+                         <select id="city" name="city">
                          <option value="prishtine">Prishtine</option>
                          <option value="prizren">Prizren</option>
                         <option value="peje">Peje</option>

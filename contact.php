@@ -5,11 +5,11 @@ require 'include/db_connect.php';
 
 if(isset($_POST['submit'])){
 
-    $fname= $_POST['firstname'];
-    $lname= $_POST['lastname'];
+    $firstname= $_POST['firstname'];
+    $lastname= $_POST['lastname'];
     $email= $_POST['email'];
-    $country= $_POST['country'];
-    $subjecti= $_POST['subjecti'];
+    $city= $_POST['city'];
+    $subject= $_POST['subject'];
     
 if(empty($firstname))
 {
@@ -40,15 +40,15 @@ elseif(!filter_var($email, FILTER_VALIDATE_EMAIL))
 
 else{
 
-    $sql="INSERT INTO contact1 (firstname, lastname, email, country, subjecti) VALUES(:firstname, :lastname, :email, :country, :subjecti)";
-    $query= $conn->prepare($sql);
+    $sql="INSERT INTO contact (firstname, lastname, email, city, subject) VALUES (:firstname, :lastname, :email, :city, :subject)";
+    $query= $pdo->prepare($sql);
 
-    $query -> bindParam('firstname', $fname);
+    $query -> bindParam('firstname', $firstname);
     
-    $query -> bindParam('lastname', $lname);
+    $query -> bindParam('lastname', $lastname);
     $query -> bindParam('email', $email);
-    $query -> bindParam('country', $country);
-    $query -> bindParam('subjecti', $subjecti);
+    $query -> bindParam('city', $city);
+    $query -> bindParam('subject', $subject);
 
     $query -> execute();
 
