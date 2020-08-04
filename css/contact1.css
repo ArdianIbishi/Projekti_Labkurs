@@ -1,0 +1,291 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+body{
+    background-color:whitesmoke
+    
+}
+#container{
+    
+width: 100%;
+overflow: hidden;
+}
+.header1{
+width: 98%;
+height: 50px;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+left: 1%;
+right: 1%;
+align-items: center;
+border-bottom: 1px solid black;
+position: relative;
+
+}
+
+.header1 ul{
+    list-style: none;
+    display: flex;
+    
+}
+.left-side{
+    
+    height: inherit;
+    
+    display: flex;
+    
+    
+}
+.lista-majte{
+    height: inherit;
+    
+}
+.lista-majte li{
+    padding-top: 25px;
+
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 60px;
+    
+}
+.lista-majte li:hover{
+    background-color: blue;
+}
+.left-side a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.lista-majte ul{
+    display: block;
+}
+.lista-majte ul li a:hover{
+    background-color: blue;
+}
+
+.icon{
+    width: 50px;
+    height: 46px;
+    
+}
+
+.dropbtn {
+    
+    color: black;
+    
+    
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: blue}
+
+.right-side{
+    
+    height: inherit;
+    
+    display: flex;
+    
+    
+}
+.right-side a{
+    text-decoration: none;
+    color: black;
+}
+
+.lista-djatht{
+    height: inherit;
+}
+.lista-djatht li{
+    
+    text-align: center;
+    
+    align-items: center;
+    padding-top: 25px;
+    margin-right: 80px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.fa{
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.icon{
+    padding-top: 0px 5px 0px 5px;
+}
+.lista-djatht li:hover{
+    background-color: blue;
+}
+ .lista-djatht #li{
+     padding-left: 30px;
+     padding-right: 30px;
+ }
+
+
+.footer{
+    width: 98%;
+    height: 80px;
+    border:1px solid black;
+    position: relative;
+    left: 1%;
+    right: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    background-color: none;
+
+}
+
+.sherbimi{
+    width: 20%;
+    height: 65px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    padding-top: 5px;
+    
+    
+}
+.sherbimi a,b,c{
+    text-decoration: none;
+}
+.sherbimi:hover{
+    background-color:#191c2457;
+    
+}
+
+
+.fa{
+    margin: 10px 20px 0px 10px;
+    color: chartreuse;
+    color: black;
+}
+
+
+.li1{
+    display: flex;
+    margin: 5px;
+}
+
+.ul a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+.ul :hover{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+.content{
+
+    width: 80%;
+    overflow: hidden;
+    background-color: rgba(26, 9, 9, 0.400);
+    
+    margin: 20px;
+    left: 10%;
+    right: 10%;
+    position: relative;
+    color: white;
+    display: flex;
+}
+.map{
+width: 48%;
+overflow: hidden;
+margin: 10px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contact {
+    border-radius: 5px;
+    background-color: #f2f2f26b;
+    padding: 20px;
+    width: 48%;
+    margin: 10px;
+  }
+  
+       
+
+#firstnameError,#emailError,#lastnameError{
+    font-size:14px;
+    display:none;
+    text-align:center;
+    color:black;
+    background-color:red;
+    
+   
+}
+h1{
+    color:red;
+}

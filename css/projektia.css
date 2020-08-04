@@ -134,7 +134,7 @@ position: relative;
     
     align-items: center;
     padding-top: 25px;
-    margin-right: 80px;
+    margin-right: 20px;
     padding-right: 10px;
     padding-left: 10px;
 }
@@ -149,8 +149,8 @@ position: relative;
     background-color: blue;
 }
  .lista-djatht #li{
-     padding-left: 30px;
-     padding-right: 30px;
+     padding-left: 10px;
+     padding-right: 10px;
  }
 .header2{
     width: 98%;
@@ -213,10 +213,10 @@ position: relative;
 }
 .middlecontainer{
     width: 98%;
-    overflow: hidden;;
+    overflow: hidden;
     
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
     position: relative;
     left: 1%;
@@ -244,6 +244,21 @@ position: relative;
     padding-top: 7px;
     padding-bottom: 7px;
     text-align: center;
+}
+#kategorite ul{
+    list-style: none;
+    
+    
+    
+    
+}
+#kategorite ul li{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 80px;
+    
+    width: 500px;
+    
 }
 
 .li-first{
@@ -293,6 +308,153 @@ position: relative;
   
   .drop1:hover .drop2 {background-color: blue}
 
+
+
+.slidet{
+    width: 100%;
+    
+    height: 411px;
+    position: relative;
+overflow: hidden;
+margin-left: 5px;
+
+}
+.slidet figure{
+    position: relative;
+    width: 500%;
+    animation: slide 15s infinite;
+}
+
+.slidet img{
+    width: 20%;
+    height: 411px;
+    float: left;
+}
+@keyframes slide{
+    0%{
+        left: 0;
+    }
+    10%{
+        left: 0;
+    }
+    20%{
+        left: -100%;
+    }
+    30%
+    {
+        left: -100%;
+    }
+    40%
+    {
+        left: -200%;
+    }
+    50%
+    {
+        left: -200%;
+    }
+    60%
+    {
+        left: -300%;
+    }
+    70%
+    {
+        left: -300%;
+    }
+    80%
+    {
+        left: -400%;
+    }
+    90%
+    {
+        left:-400%;
+    }
+    100%{
+        left: 0;
+    }
+}
+p{
+    font-size: 15pt;
+    margin: 8px 0px 8px 12px;
+}
+.artikujt{
+    width: 98%;
+    height: 23vh;
+    
+    background-color: whitesmoke;
+    
+    position: relative;
+    left: 1%;
+    right: 1%;
+    overflow: hidden;
+    margin-top: 2px;
+    display: flex;
+}
+
+.artikujt .artikulli{
+   position: relative;
+    width: 3400px;
+    animation:slide2 30s infinite;
+    
+}
+.artikulli1{
+    display: flex;
+    flex-direction: column;
+}
+.artikulli img{
+    width: 200px;
+    height: 18vh;
+    margin-right: 13px;
+    float: left;
+}
+.artikulli{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+@keyframes slide2{
+    0%{
+        left: 0;
+    }
+    10%{
+        left: 0;
+    }
+    20%{
+        left: -211px;
+    }
+    30%
+    {
+        left: -422px;
+    }
+    40%
+    {
+        left: -633px;
+    }
+    50%
+    {
+        left: -847px;
+    }
+    60%
+    {
+        left: -1065px;
+    }
+    70%
+    {
+        left: -1275px;
+    }
+    80%
+    {
+        left: -1488px;
+    }
+    90%
+    {
+        left:-1705px;
+    }
+    100%{
+        left: 0;
+    }
+}
+
 .footer{
     width: 98%;
     height: 60px;
@@ -317,34 +479,3 @@ position: relative;
     
 }
 
-#artikulli{
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-    margin: 20px;
-}
-.image{
-    width: 298px;
-    height: 244px;
-    border: 1px solid black;
-}
-.image img{
-    width: 298px;
-    height: 244px;
-}
-.emri{
-    width: 298px;
-    height: 25px;
-    border: 1px solid black;
-}
-.cmimi{
-    width: 298px;
-    height: 25px;
-    border: 1px solid black;
-}
-.header3{
-    display: flex;
-    align-items: center;
-    margin-left: 16px;
-    
-}

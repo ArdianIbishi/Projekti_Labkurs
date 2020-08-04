@@ -1,9 +1,14 @@
+<?php
+
+session_start();
+
+?>
 <!DOCTYPE html>
 <html>
     <head>
         <title>Projekti</title>
         <meta charset="UTF-8">
-        <link rel="Stylesheet" href="css/projekti2.css">
+        <link rel="Stylesheet" href="css/projektia.css">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
             
@@ -23,6 +28,8 @@
             
             include 'include/header2.php';
             ?>
+
+
             </div>
             <div class="middlecontainer">
 
@@ -46,16 +53,31 @@
 
                 </div>
             </div>
+            <?php
+            require 'include/db_connect.php';
+            
+            $sql='SELECT* from minislidethome';
+            $query=$pdo ->query($sql);
+
+            $users=$query -> fetchAll();
+            
+            ?>
+
+            
+
             <br>
+            
+           
             <p>Produkte qe po blihen se fundi te Beni Impex</p>
             <div class="artikujt">
-
+            <?php foreach($users as $usera): ?>
                 <div class="artikulli">
-                    <a href="#"><img src="img/aaallogo beni impex (1).png"></a>
-                    <div>cmimi</div>
-                    <div>cmimi</div>
+                    <a href="miniSlidetHome.php"><img src="uploads/<?php echo $usera['image'];?>" /></a>
+                    <div><?php echo $usera['titulli'];?></div>
+                    <div><?php echo $usera['teksti'];?>€uro</div>
                 </div>
-
+                <?php endforeach; ?>
+            
                 <div class="artikulli">
                     <a href="#"><img src="img/iphone.jpg"></a>
                     <div>cmimi</div>

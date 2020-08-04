@@ -3,10 +3,11 @@
     margin: 0;
     padding: 0;
     font-family: "Roboto";
+    
 }
 body{
     background-color:whitesmoke
-    
+
 }
 #container{
     
@@ -212,15 +213,17 @@ position: relative;
     margin-right: 30px;
 }
 .middlecontainer{
-    width: 98%;
+    width: 80%;
     overflow: hidden;;
-    
+    background-color: whitesmoke;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
-    left: 1%;
-    right: 1%;
+    left: 10%;
+    right: 10%;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.459);
 }
 #kategorite{
     width: 30%;
@@ -320,13 +323,14 @@ position: relative;
 #artikulli{
     width: 300px;
     height: 300px;
-    border: 1px solid black;
+    
     margin: 20px;
+    
 }
 .image{
     width: 298px;
     height: 244px;
-    border: 1px solid black;
+    
 }
 .image img{
     width: 298px;
@@ -334,13 +338,23 @@ position: relative;
 }
 .emri{
     width: 298px;
-    height: 25px;
-    border: 1px solid black;
+    overflow: hidden;
+    text-align: center;
+    color: black;
+    
 }
+.emri a{
+    text-decoration: none;
+    }
+
 .cmimi{
     width: 298px;
     height: 25px;
-    border: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+padding-top: 5px;
+color: black;
+    
 }
 .header3{
     display: flex;
