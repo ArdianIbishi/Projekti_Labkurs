@@ -1,9 +1,37 @@
+<!-- Lloji i dokumentit -->
 <!DOCTYPE html>
 <html>
+
+
+<!--Kreu (Koka) e dokumentit -->
     <head>
+	<!-- Shfaqet emri Projektit ne tab te shfletuesit -->
         <title>Projekti</title>
+		<!-- Nenkupton lloj formatim te shkronjave (familje)  shembull Shqip , Chirilice, Chinese, Arabian etj-->
         <meta charset="UTF-8">
+		
+		<!-- Ketu referohet  (kerkohet) dizajni fajlli i css per ueb faqe 
+		css/projekti2 css dmth follderi ku gjendet, projekti2 dmth emri i fajllit me ekstensionin css
+		
+		stylesheet nenkupton llojin e dokumentit dmth dizajni pamja e ueb faqes si psh karakteristikat e elementeve 
+		te ueb faqes qe jane te krijuara me html
+		manipulimi me madhesine e shkronjave font-size: (jepet vlera) ;
+		manipulimi me famijen e shkronjave font-family: njejt si larte
+		prapavija e pamjes prapavijes se body elemtetit (html kodi) te faqes:
+		body 
+		{
+			background-color:red;
+			
+		}
+		Le te gjejme paragrafin me ID test dhe te ia ndrrojme ngjyren e shkronjave
+		p
+		{
+			font-color: red;
+		}
+		-->
+	
         <link rel="Stylesheet" href="css/projekti2.css">
+		
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
             
@@ -20,7 +48,8 @@
             <div class="header2">
             
             <?php
-            
+           // ketu thirret pjesa e divit  te logos se marketit dhe te kerkuesit ( Kerko produktin) si dhe Supermarket..
+		   //
             include 'include/header2.php';
             ?>
             </div>
@@ -47,19 +76,19 @@
                 </div>
             </div>
             <br>
-            <p>Produkte qe po blihen se fundi te Beni Impex</p>
-            <div class="artikujt">
+            <p class="paragrafikryesor" >Produkte qe po blihen se fundi te Beni Impex</p>
+            <div class="artikujt">	
 
                 <div class="artikulli">
                     <a href="#"><img src="img/aaallogo beni impex (1).png"></a>
-                    <div>cmimi</div>
-                    <div>cmimi</div>
+                    <div>Artikulli 1</div>
+                    <div>cmimi: 2.2 Eur</div>
                 </div>
 
                 <div class="artikulli">
                     <a href="#"><img src="img/iphone.jpg"></a>
-                    <div>cmimi</div>
-                    <div>cmimi</div>
+                    <div>Iphone 4s</div>
+                    <div>cmimi: 5 Euro</div>
                 </div>
 
                 <div class="artikulli">

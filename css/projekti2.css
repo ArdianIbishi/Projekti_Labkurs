@@ -204,7 +204,7 @@ position: relative;
   }
   
 #supermarket{
-    color:#e60000;
+    color:rgb(85, 5, 5);
     width: 300px;
     height: auto;
     text-align: center;
@@ -411,6 +411,13 @@ p{
     flex-direction: column;
     text-align: center;
 }
+.paragrafikryesor {
+	size:90px;
+	text-align:center;
+	color:red;
+}
+
+
 
 
 @keyframes slide2{
@@ -459,7 +466,7 @@ p{
 .footer{
     width: 98%;
     height: 60px;
-    border:1px solid black;
+    border:100px solid black;
     position: relative;
     left: 1%;
     right: 1%;
@@ -472,7 +479,7 @@ p{
 .sherbimi{
     width: 20%;
     height: 40px;
-    border: 1px solid black;
+    border: 100px solid red;
     display: flex;
     flex-direction: column;
     text-align:center;
