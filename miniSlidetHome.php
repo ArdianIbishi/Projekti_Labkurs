@@ -1,9 +1,3 @@
-
-<?php
-
-session_start();
-
-?>
 <script>
 var numri=0;
 function zvogloSasin(){
@@ -57,7 +51,7 @@ text-align:center;
 require 'include/db_connect.php';
 
 
-$query = $pdo -> query('SELECT * from shtepia');
+$query = $pdo -> query('SELECT * from minislidethome');
 
 $users =$query -> fetchAll();
 
@@ -93,14 +87,13 @@ $users =$query -> fetchAll();
             <?php
                  include 'include/kategoriadown.php';
                  ?>
-                 <h2 style="margin-left:20px;">Kategoria: Shtepia</h2>
+                 <h2 style="margin-left:20px;">Kategoria: Elektronike</h2>
                  </div>
                  <?php
 
 require 'include/db_connect.php';
 if(!isset($_GET['id'])){
     echo "<style>#artikulliShitje{display:none;}</style>";
-    $id=0;
 }
 
 if(isset($_GET['id']))
@@ -113,7 +106,7 @@ if(isset($_GET['id']))
 
 
 
-$sql= 'SELECT * from shtepia WHERE id = :id';
+$sql= 'SELECT * from minislidethome WHERE id = :id';
 
 $query = $pdo -> prepare($sql);
 $query -> execute(['id' => $id]);
@@ -140,7 +133,7 @@ $usera = $query -> fetch();
                  <p>I disponueshem</p>
                  <br>
                  <br>
-                 <div><a href="porositPajisjeshtepiake.php?id=<?php echo $usera['id'];?>"><div id="klik">Porosit me 1 Klik</div></a> </div>
+                 <div><a href="porositMiniSlidetHome.php?id=<?php echo $usera['id'];?>"><div id="klik">Porosit me 1 Klik</div></a> </div>
             
                 <!-- <button onclick="zvogloSasin()"><b>-<b></button><button onclick="rritSasin()"><b>+<b></button> -->
                  
@@ -152,7 +145,7 @@ $usera = $query -> fetch();
             <?php foreach($users as $user):?>
                  
                  <div id="artikulli">
-                 <a href="kategoriaShtepia.php?id=<?php echo $user['id'];?>"style="text-decoration:none;">
+                 <a href="miniSlidetHome.php?id=<?php echo $user['id'];?>"style="text-decoration:none;">
                      <div class="image"><img src="uploads/<?php echo $user['image'];?>" /></div>
                      <div class="emri"><?php echo $user['titulli'];?></div>
                      <div class="cmimi"><?php echo $user['teksti'];?>€uro</div>

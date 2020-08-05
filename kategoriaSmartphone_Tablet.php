@@ -1,4 +1,5 @@
 
+
 <?php
 
 session_start();
@@ -44,7 +45,9 @@ text-align:center;
     color:white;
     
 }
-
+#klik a{
+    text-decoration: none;
+}
 #klik:hover{
     background-color:#aabbdd;
     color:blue;
@@ -57,7 +60,7 @@ text-align:center;
 require 'include/db_connect.php';
 
 
-$query = $pdo -> query('SELECT * from shtepia');
+$query = $pdo -> query('SELECT * from smartphone');
 
 $users =$query -> fetchAll();
 
@@ -93,7 +96,7 @@ $users =$query -> fetchAll();
             <?php
                  include 'include/kategoriadown.php';
                  ?>
-                 <h2 style="margin-left:20px;">Kategoria: Shtepia</h2>
+                 <h2 style="margin-left:20px;">Kategoria: Smartphone&Tablet</h2>
                  </div>
                  <?php
 
@@ -113,7 +116,7 @@ if(isset($_GET['id']))
 
 
 
-$sql= 'SELECT * from shtepia WHERE id = :id';
+$sql= 'SELECT * from smartphone WHERE id = :id';
 
 $query = $pdo -> prepare($sql);
 $query -> execute(['id' => $id]);
@@ -140,7 +143,7 @@ $usera = $query -> fetch();
                  <p>I disponueshem</p>
                  <br>
                  <br>
-                 <div><a href="porositPajisjeshtepiake.php?id=<?php echo $usera['id'];?>"><div id="klik">Porosit me 1 Klik</div></a> </div>
+                 <div><a href="porositSmartphone_Tablet.php?id=<?php echo $usera['id'];?>"><div id="klik">Porosit me 1 Klik</div></a> </div>
             
                 <!-- <button onclick="zvogloSasin()"><b>-<b></button><button onclick="rritSasin()"><b>+<b></button> -->
                  
@@ -152,7 +155,7 @@ $usera = $query -> fetch();
             <?php foreach($users as $user):?>
                  
                  <div id="artikulli">
-                 <a href="kategoriaShtepia.php?id=<?php echo $user['id'];?>"style="text-decoration:none;">
+                 <a href="kategoriaSmartphone_Tablet.php?id=<?php echo $user['id'];?>" style="text-decoration:none;">
                      <div class="image"><img src="uploads/<?php echo $user['image'];?>" /></div>
                      <div class="emri"><?php echo $user['titulli'];?></div>
                      <div class="cmimi"><?php echo $user['teksti'];?>€uro</div>

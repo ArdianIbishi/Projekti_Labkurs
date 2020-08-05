@@ -1,0 +1,76 @@
+
+#dashboard{
+    margin-top:100px;
+    margin-left:30px;
+}
+#hr{
+    width:800px;
+    border:3px solid red;
+    margin-left:30px;
+    }
+
+
+    #menuDashboard{
+        
+overflow: hidden;
+
+
+    }
+.butonDashboard{
+  width:200px;
+  height:25px;
+  padding:10px 10px 20px 0px;
+  text-align:center;
+  
+  background-color:#aabbdd;
+}
+.butonDashboard:hover{
+  background-color:blue;
+  color:white;
+  
+}
+.h3{
+  background-color:#aabbdd;
+}
+.h3:hover{
+  background-color:blue;
+  color:white;
+  
+}
+#backbutton{
+  background-color:#00FFFF;
+  display:flex;
+  justify-content:space-around;
+  width:89%;
+  position:relative;
+  left:2%;
+  right:1%;
+}
+#cantainer-dashboardMenu{
+  height: 2000px;
+}
+#buttonShtoProduktin{
+  width:130px;
+  height:35px;
+  background-color:blue;
+  align-items:center;
+  margin:20px 0px 0px 55px;
+  display:flex;
+  padding-left:20px;
+  color:white;
+  border-radius:5px;
+  text-decoration: none;
+  
+}
+
+#buttonShtoProduktin a{
+  text-decoration:none;
+}
+
+#h2-shtoProduktButon a{
+  text-decoration: none;
+}
+
+#h2-shtoProduktButon :hover{
+  background-color: green;
+}

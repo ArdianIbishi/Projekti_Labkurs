@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 <!-- Lloji i dokumentit -->
+=======
+<?php
+
+session_start();
+
+?>
+>>>>>>> 85fb2c8e9e89850939a3817c48f2a34c6a0840d3
 <!DOCTYPE html>
 <html>
 
@@ -9,6 +17,7 @@
         <title>Projekti</title>
 		<!-- Nenkupton lloj formatim te shkronjave (familje)  shembull Shqip , Chirilice, Chinese, Arabian etj-->
         <meta charset="UTF-8">
+<<<<<<< HEAD
 		
 		<!-- Ketu referohet  (kerkohet) dizajni fajlli i css per ueb faqe 
 		css/projekti2 css dmth follderi ku gjendet, projekti2 dmth emri i fajllit me ekstensionin css
@@ -32,6 +41,9 @@
 	
         <link rel="Stylesheet" href="css/projekti2.css">
 		
+=======
+        <link rel="Stylesheet" href="css/projektia.css">
+>>>>>>> 85fb2c8e9e89850939a3817c48f2a34c6a0840d3
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
             
@@ -52,6 +64,8 @@
 		   //
             include 'include/header2.php';
             ?>
+
+
             </div>
             <div class="middlecontainer">
 
@@ -75,7 +89,20 @@
 
                 </div>
             </div>
+            <?php
+            require 'include/db_connect.php';
+            
+            $sql='SELECT* from minislidethome';
+            $query=$pdo ->query($sql);
+
+            $users=$query -> fetchAll();
+            
+            ?>
+
+            
+
             <br>
+<<<<<<< HEAD
             <p class="paragrafikryesor" >Produkte qe po blihen se fundi te Beni Impex</p>
             <div class="artikujt">	
 
@@ -83,8 +110,20 @@
                     <a href="#"><img src="img/aaallogo beni impex (1).png"></a>
                     <div>Artikulli 1</div>
                     <div>cmimi: 2.2 Eur</div>
+=======
+            
+           
+            <p>Produkte qe po blihen se fundi te Beni Impex</p>
+            <div class="artikujt">
+            <?php foreach($users as $usera): ?>
+                <div class="artikulli">
+                    <a href="miniSlidetHome.php"><img src="uploads/<?php echo $usera['image'];?>" /></a>
+                    <div><?php echo $usera['titulli'];?></div>
+                    <div><?php echo $usera['teksti'];?>€uro</div>
+>>>>>>> 85fb2c8e9e89850939a3817c48f2a34c6a0840d3
                 </div>
-
+                <?php endforeach; ?>
+            
                 <div class="artikulli">
                     <a href="#"><img src="img/iphone.jpg"></a>
                     <div>Iphone 4s</div>
