@@ -1,105 +1,79 @@
+<<<<<<< HEAD
+<!-- Lloji i dokumentit -->
+=======
+<?php
+
+session_start();
+
+?>
+>>>>>>> 85fb2c8e9e89850939a3817c48f2a34c6a0840d3
 <!DOCTYPE html>
 <html>
+
+
+<!--Kreu (Koka) e dokumentit -->
     <head>
+	<!-- Shfaqet emri Projektit ne tab te shfletuesit -->
         <title>Projekti</title>
+		<!-- Nenkupton lloj formatim te shkronjave (familje)  shembull Shqip , Chirilice, Chinese, Arabian etj-->
         <meta charset="UTF-8">
-        <link rel="Stylesheet" href="projekti.css">
+<<<<<<< HEAD
+		
+		<!-- Ketu referohet  (kerkohet) dizajni fajlli i css per ueb faqe 
+		css/projekti2 css dmth follderi ku gjendet, projekti2 dmth emri i fajllit me ekstensionin css
+		
+		stylesheet nenkupton llojin e dokumentit dmth dizajni pamja e ueb faqes si psh karakteristikat e elementeve 
+		te ueb faqes qe jane te krijuara me html
+		manipulimi me madhesine e shkronjave font-size: (jepet vlera) ;
+		manipulimi me famijen e shkronjave font-family: njejt si larte
+		prapavija e pamjes prapavijes se body elemtetit (html kodi) te faqes:
+		body 
+		{
+			background-color:red;
+			
+		}
+		Le te gjejme paragrafin me ID test dhe te ia ndrrojme ngjyren e shkronjave
+		p
+		{
+			font-color: red;
+		}
+		-->
+	
+        <link rel="Stylesheet" href="css/projekti2.css">
+		
+=======
+        <link rel="Stylesheet" href="css/projektia.css">
+>>>>>>> 85fb2c8e9e89850939a3817c48f2a34c6a0840d3
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
             
     </head>
 
     <body>
         <div id="container">
-            <div class="header1">
-                <div class="left-side">
-                    <ul class="icona">
-                        <div class="dropdown">
-                            <button class="dropbtn"><img class="icon" src="img/menuicon.png"></button>
-                            <div class="dropdown-content">
-                              <a href="projekti.html"><b>Ballina<b></a>
+           <?php
+           
+           include 'include/header.php';
 
-                              <a href="#"><b>About us<b></a>
-                              <a href="#"><b>Mundesi Punsimi<b></a>
-                              <a href="#"><b>Lokacioni<b></a>
-                            </div>
-                          </div>
-                          
-                    
-                    
-                    </ul>
-                    <ul class="lista-majte">
-                        <li><div class="dropdown">
-                            <button class="dropbtn"><b>Sherbimi klientit<b></button>
-                            <div class="dropdown-content">
-                              <a href="#"><b>Na kontaktoni<b></a>
-                              <a href="#"><b>Transporti<b></a>
-                              <a href="#"><b>Kthimi i produktit<b></a>
-                            </div>
-                          
-                        <li>
-                            <li><div class="dropdown">
-                                <button class="dropbtn"><b>Ofertat<b></button>
-                                <div class="dropdown-content">
-                                  <a href="#"><b>Oferta javore<b></a>
-                                  <a href="#"><b>Oferta mujore<b></a>
-                                  
-                                </div>
-                            
-                        <li><a href="#"><b>Te rejat</b></a></li>
-                        
-                    </ul>
-                </div>
-                <div class="right-side">
-                    
-                    <ul class="lista-djatht">
-                        <li><a href="#"><b>Ide dhuratash</b></a>
-                        <li></li></li>
-                        <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i><b>Te preferuarat e mia</b></a></li>
-                        <li id="li"><i class="fa fa-user-circle" aria-hidden="true"></i><b>Hyr</b></a></li>
-                        
-                    </ul>
-                </div>
-                    
-            </div>
+           ?>
             
             <div class="header2">
-                <img src="img/aaallogo beni impex (1).png">
-                <div id="search">
-                    <form action="action">
-                        <input type="text" placeholder="Kerko produktin" name="search">
-                        <button type="submit"><i class="fa fa-search"></i></button>
-                      </form>
-           
-         
-                </div>
-                <div id="supermarket"><h2>SUPERMARKET</h2></div>
+            
+            <?php
+           // ketu thirret pjesa e divit  te logos se marketit dhe te kerkuesit ( Kerko produktin) si dhe Supermarket..
+		   //
+            include 'include/header2.php';
+            ?>
+
+
             </div>
             <div class="middlecontainer">
-                <div id="kategorite"><h3 class="h3">KATEGORITE<i class="fa fa-chevron-down"></i><h3>
-                    <ul><li class="li-first">
-                        <a href="#"><i class="fa fa-laptop"></i>Kompjuter&Kancelari</a></li>
-                        <li class="li-second"><a href="#"><i class="fa fa-home" aria-hidden="true"></i>
-                            Shtepia</a></li>
-                            <li class="li-first"><a href="#"><i class="fa fa-plug" aria-hidden="true"></i>
-                                Elektronike</a></li>
-                                <li class="li-second"><a href="#"><i class="fa fa-tablet" aria-hidden="true"></i>
-                                    Smartphone&Tablet</a></li>
-                                    <li class="li-first"><a href="#"><i class="fa fa-female"></i>Femra</a></li>
-                                    <li class="li-second"><a href="#"><i class="fa fa-male" aria-hidden="true"></i>
-                                        Meshkuj</a></li>
-                                        <li class="li-first"><a href="#"><i class="fa fa-gamepad" aria-hidden="true"></i>
-                                            Femije&Lodra</a></li>
-                                            <li class="li-second"><a href="#"><i class="fa fa-leaf" aria-hidden="true"></i>
-                                                Kujdesi Personal</a></li>
-                                                <li class="li-first"><a href="#"><i class="fa fa-car" aria-hidden="true"></i>
-                                                    Makina Aksesore</a></li>
-                                                    <li class="li-second"><a href="#"><i class="fa fa-book" aria-hidden="true"></i>
-                                                        Libra</a></li>
 
-
-                    </ul>
-
+                 <div id="kategorite"><h3 class="h3">KATEGORITE<i class="fa fa-chevron-down"></i><h3>
+                    
+                 <?php
+                 include 'include/kategoria.php';
+                 ?>
             </div>
                 <div class="slidet">
                     <div>
@@ -115,70 +89,131 @@
 
                 </div>
             </div>
-            <p>Produkte qe po bihen se fundi te Beni Impex</p>
-            <div class="artikujt">
+            <?php
+            require 'include/db_connect.php';
+            
+            $sql='SELECT* from minislidethome';
+            $query=$pdo ->query($sql);
+
+            $users=$query -> fetchAll();
+            
+            ?>
+
+            
+
+            <br>
+<<<<<<< HEAD
+            <p class="paragrafikryesor" >Produkte qe po blihen se fundi te Beni Impex</p>
+            <div class="artikujt">	
+
                 <div class="artikulli">
                     <a href="#"><img src="img/aaallogo beni impex (1).png"></a>
-                </div>
+                    <div>Artikulli 1</div>
+                    <div>cmimi: 2.2 Eur</div>
+=======
+            
+           
+            <p>Produkte qe po blihen se fundi te Beni Impex</p>
+            <div class="artikujt">
+            <?php foreach($users as $usera): ?>
                 <div class="artikulli">
-                
-                <a href="#"><img src="img/iphone.jpg"></a>
-                
+                    <a href="miniSlidetHome.php"><img src="uploads/<?php echo $usera['image'];?>" /></a>
+                    <div><?php echo $usera['titulli'];?></div>
+                    <div><?php echo $usera['teksti'];?>€uro</div>
+>>>>>>> 85fb2c8e9e89850939a3817c48f2a34c6a0840d3
                 </div>
+                <?php endforeach; ?>
+            
+                <div class="artikulli">
+                    <a href="#"><img src="img/iphone.jpg"></a>
+                    <div>Iphone 4s</div>
+                    <div>cmimi: 5 Euro</div>
+                </div>
+
                 <div class="artikulli">
                     <a href="#"><img src="img/shtrydhse frutash.jpg"></a>
-                    
-                    </div>
-                    <div class="artikulli">
+                    <div>cmimi</div>
+                    <div>cmimi</div> 
+                </div>
+
+                <div class="artikulli">
                     <a href="#"><img src="img/televizor.jpg"></a>
-                    </div>
-                    <div class="artikulli">
+                    <div>cmimi</div>
+                    <div>cmimi</div>
+                </div>
+
+                <div class="artikulli">
                     <a href="#"><img src="img/krahen.jpg"></a>
-                    </div>
-                    <div class="artikulli">
+                    <div>cmimi</div>
+                    <div>cmimi</div>
+                </div>
+
+                <div class="artikulli">
                     <a href="#"><img src="img/krem.jpg"></a>
-                    </div>
-                    <div class="artikulli">
+                    <div>cmimi</div>
+                    <div>cmimi</div>
+                </div>
+
+                <div class="artikulli">
                     <a href="#"><img src="img/miniblinder.jpg"></a>
-                    </div>
-                    <div class="artikulli">
-                        <a href="#"><img src="img/tplink.jpg"></a>
-                        </div>
-                        <div class="artikulli">
-                            <a href="#"><img src="img/tenxhere.jpg"></a>
-                            </div>
-                            <div class="artikulli">
-                                <a href="#"><img src="img/kamera.jpg"></a>
-                                </div>
-                                <div class="artikulli">
-                                    <a href="#"><img src="img/beba.jpg"></a>
-                                    </div>
-                                    <div class="artikulli">
-                                        <a href="#"><img src="img/usb.jpg"></a>
-                                        </div>
-                                        <div class="artikulli">
-                                            <a href="#"><img src="img/kondicioner.jpg"></a>
-                                            </div>
-                                            <div class="artikulli">
-                                                <a href="#"><img src="img/laptop.jpg"></a>
-                                                </div>
-                                                <div class="artikulli">
-                                                    <a href="#"><img src="img/tenxhere.jpg"></a>
-                                                    </div>
-                                                    
+                    <div>cmimi</div>
+                    <div>cmimi</div>
+                </div>
 
+                <div class="artikulli">
+                    <a href="#"><img src="img/tplink.jpg"></a>
+                    <div>cmimi</div>
+                    <div>cmimi</div>
+                </div>
+
+                <div class="artikulli">
+                    <a href="#"><img src="img/tenxhere.jpg"></a>
+                    <div>cmimi</div>
+                    <div>cmimi</div>
+                </div>
+
+                <div class="artikulli">
+                    <a href="#"><img src="img/kamera.jpg"></a>
+                    <div>cmimi</div>
+                    <div>cmimi</div>
+                </div>
                 
+                <div class="artikulli">
+                    <a href="#"><img src="img/beba.jpg"></a>
+                    <div>cmimi</div>
+                    <div>cmimi</div>
+                </div>
+
+                <div class="artikulli">
+                    <a href="#"><img src="img/usb.jpg"></a>
+                    <div>cmimi</div>
+                    <div>cmimi</div>
+                </div>
+                                        
+                <div class="artikulli">
+                    <a href="#"><img src="img/kondicioner.jpg"></a>
+                    <div>cmimi</div>
+                    <div>cmimi</div>
+                </div>
+                
+                <div class="artikulli">
+                    <a href="#"><img src="img/laptop.jpg"></a>
+                    <div>cmimi</div>
+                    <div>cmimi</div>
+                </div>
+                                               
+                <div class="artikulli">
+                    <a href="#"><img src="img/tenxhere.jpg"></a>
+                    <div>cmimi</div>
+                    <div>cmimi</div>
+                </div>
             </div>
-            <div class="footer">
-                <div class="sherbimi" id="qmimi">
-                    <a href="#"><i class="fa fa-eur" aria-hidden="true"></i><br>
-                        Çmimet me te mira ne treg te garantuara</a></div>
 
-                <div class="sherbimi" id="transporti"><a href="#"><i class="fa fa-truck" aria-hidden="true"></i><br>
-                    Transport i shpejtë</a></div>
-                <div class="sherbimi" id="kthimi"><a href="#"><i class="fa fa-reply-all" aria-hidden="true"></i><br>
-Blerje të sigurta.14ditë mundësi kthimi</a></div>
-                
+
+            <div class="footer">
+            <?php   
+            include 'include/footer.php'; 
+            ?>
             </div>
         </div>
     </body>

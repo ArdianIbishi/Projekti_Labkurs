@@ -1,0 +1,30 @@
+.formApliko_Pune{
+    width: 80%;
+    overflow: hidden;
+    margin-top: 100px;
+    left: 10%;
+    right: 10%;
+    position: relative;
+}
+ input[type=text],select{
+    width: 94%;
+    height:40px;
+    margin-top: 10px;
+    left: 2%;
+    right: 2%;
+    border-radius: 5px;
+    border-color:#aabbdd;
+}
+textarea{
+    width: 94%;
+    height:40px;
+    margin-top: 10px;
+    left: 2%;
+    right: 2%;
+    border-radius: 5px;
+    border-color:#aabbdd;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}

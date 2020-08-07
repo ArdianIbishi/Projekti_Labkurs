@@ -1,0 +1,362 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    
+}
+body{
+    background-color:whitesmoke
+
+}
+#container{
+    
+width: 100%;
+overflow: hidden;
+}
+.header1{
+width: 98%;
+height: 50px;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+left: 1%;
+right: 1%;
+align-items: center;
+border-bottom: 1px solid black;
+position: relative;
+
+}
+
+.header1 ul{
+    list-style: none;
+    display: flex;
+    
+}
+.left-side{
+    
+    height: inherit;
+    
+    display: flex;
+    
+    
+}
+.lista-majte{
+    height: inherit;
+    
+}
+.lista-majte li{
+    padding-top: 25px;
+
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 60px;
+    
+}
+.lista-majte li:hover{
+    background-color: blue;
+}
+.left-side a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.lista-majte ul{
+    display: block;
+}
+.lista-majte ul li a:hover{
+    background-color: blue;
+}
+
+.icon{
+    width: 50px;
+    height: 46px;
+    
+}
+
+.dropbtn {
+    
+    color: black;
+    
+    
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: blue}
+
+.right-side{
+    
+    height: inherit;
+    
+    display: flex;
+    
+    
+}
+.right-side a{
+    text-decoration: none;
+    color: black;
+}
+
+.lista-djatht{
+    height: inherit;
+}
+.lista-djatht li{
+    
+    text-align: center;
+    
+    align-items: center;
+    padding-top: 25px;
+    margin-right: 80px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.fa{
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.icon{
+    padding-top: 0px 5px 0px 5px;
+}
+.lista-djatht li:hover{
+    background-color: blue;
+}
+ .lista-djatht #li{
+     padding-left: 30px;
+     padding-right: 30px;
+ }
+.header2{
+    width: 98%;
+    height: 50px;
+    
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    left: 1%;
+    right: 1%;
+    position: relative;
+    align-items: center;
+    margin-top: 1px;
+}
+
+.header2 img{
+    width: 300px;
+    height:inherit;
+    
+}
+
+#search{
+    width: 503px;
+    height: 35px;
+    border: 1px solid black;
+    
+
+}
+
+.header2 input[type=text] {
+    padding: 8px;
+    padding-top: 10px;
+    font-size: 14px;
+    border: none;
+    width: 430px;
+    background-color: whitesmoke;
+   
+  }
+  
+  .header2 #search button {
+    
+    padding: 6px 10px;
+
+    background: #aabbdd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    height: auto;
+  }
+  
+#supermarket{
+    color:#e60000;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 30px;
+}
+.middlecontainer{
+    width: 98%;
+    overflow: hidden;;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    left: 1%;
+    right: 1%;
+}
+#kategorite{
+    width: 30%;
+    height: auto;
+    
+    
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+#kategorite a{
+    text-decoration: none;
+    color: black;
+}
+
+#kategorite li a:hover{
+    background-color: blue;
+    color: white;
+}
+.h3{
+    background-color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+}
+
+.li-first{
+    background:whitesmoke;
+    
+}
+.li-second{
+    background-color: white;
+}
+
+.drop1 h4{
+    padding-right: 100px;
+}
+
+.drop2 {
+    
+    color: black;
+    
+    text-decoration: none;
+    border: none;
+  }
+  
+  .drop1 {
+    position: relative;
+    display: flex;
+  }
+  
+  .drop3 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .drop3 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .drop1-content a:hover {background-color: #ddd;}
+  
+  .drop1:hover .drop3 {display: flex;}
+  
+  .drop1:hover .drop2 {background-color: blue}
+
+.footer{
+    width: 98%;
+    height: 60px;
+    border:1px solid black;
+    position: relative;
+    left: 1%;
+    right: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.sherbimi{
+    width: 20%;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    padding-top: 5px;
+    
+}
+
+#artikulli{
+    width: 300px;
+    height: 300px;
+    
+    margin: 20px;
+    
+}
+.image{
+    width: 298px;
+    height: 244px;
+    
+}
+.image img{
+    width: 298px;
+    height: 244px;
+}
+.emri{
+    width: 298px;
+    overflow: hidden;
+    text-align: center;
+    color: black;
+    
+}
+.emri a{
+    text-decoration: none;
+    }
+
+.cmimi{
+    width: 298px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+padding-top: 5px;
+color: black;
+    
+}
+.header3{
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    
+}
